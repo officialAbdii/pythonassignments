@@ -26,8 +26,6 @@ def organizer(given_list):
     sorted_list.sort()
     return sorted_list
 
-organizer([-10, -24, 8, -15, -30, -10, 28, -10, 20, -25, -27, 2, 18, -15, 21, 17, -6, 19, -2, 7])
-
 """
 #2
 
