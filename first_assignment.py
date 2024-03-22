@@ -53,7 +53,6 @@ def invitation_maker(dictionary):
     invitation = f"Hello Mr./Ms. {first_name} {last_name}, we are very happy to have your talk on {topic}!"
     return invitation
 
-invitation_maker({'first_name': 'Bob', 'last_name': 'Singh', 'topic': 'Artificial intelligence'})
 
 """
 #3
@@ -100,8 +99,6 @@ def vowel_counter(user_input):
     'u': vowel_u}
     return (vowel_counts_dict)
 
-vowel_counter('my name is abdeali merchant')
-
 """
 #4
 
@@ -145,17 +142,4 @@ def common_countries(list1,list2):
             if i == j:
                 common_countries_list.append(i)
     common_countries_set = set(common_countries_list)
-    return common_countries_set
-
-common_countries(['Sri Lanka', 'Mongolia', 'Switzerland', 'Namibia', 'Gambia', 'Bhutan', 'Israel', 'Yemen', 'Togo',
-'Ukraine', 'Turkey', 'Vanuatu', 'Belgium', 'Seychelles', 'Turkmenistan', 'Djibouti', 'Jamaica', 'Cameroon', 'Thailand', 'Sao Tome and Principe',
-'Croatia', 'New Zealand', 'Antigua and Barbuda', 'Barbados', 'Niger', 'Vietnam', 'Burundi', 'Zambia', 'Dominican Republic', 'Austria', 'Saint Lucia',
-'Jamaica', 'Uganda', 'Moldova', 'Saint Kitts and Nevis'],
-['Guatemala', 'Democratic Republic of the Congo', 'Liberia', 'Malta', 'Kuwait', 'Greece', 'Eswatini', 'Greece', 'Papua New Guinea', 'Mauritania',
-'Ghana', 'Georgia', 'Senegal', 'Czechia (Czech Republic)', 'Germany', 'Hungary', 'New Zealand', 'Thailand', 'Indonesia', 'Barbados',
-'Spain', 'Bhutan', 'United Arab Emirates', 'New Zealand', 'Uruguay', 'Kiribati', 'Tuvalu', 'Palestine State', 'Latvia', 'Dominica', 'Ghana',
-'Palestine State', 'Malta', 'Venezuela', 'Philippines', 'France', 'Philippines', 'Saudi Arabia', 'Central African Republic', 'Nigeria',
-'Slovenia', 'Jamaica', 'Sao Tome and Principe', 'Eswatini', 'Zambia', 'Tajikistan', 'Azerbaijan', 'Democratic Republic of the Congo',
-'Cameroon', 'South Korea', 'Nauru'])
-
-
+    return common_countries_set 
